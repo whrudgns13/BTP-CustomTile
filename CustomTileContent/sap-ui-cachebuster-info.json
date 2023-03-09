@@ -1,0 +1,19 @@
+{
+  "view/App.view.xml": 1676439393425,
+  "Component.js": 1676439393397,
+  "utils/locate-reuse-libs.js": 1676439393413,
+  "model/models.js": 1676439393413,
+  "controller/View1.controller.js": 1676439393429,
+  "controller/App.controller.js": 1676509694172,
+  "manifest.json": 1676510387395,
+  "Component-preload.js": 1676510387847,
+  "utils/locate-reuse-libs-dbg.js": 1676439393413,
+  "model/models-dbg.js": 1676439393413,
+  "controller/View1-dbg.controller.js": 1676439393429,
+  "controller/App-dbg.controller.js": 1676509694172,
+  "Component-dbg.js": 1676439393397,
+  "view/View1.view.xml": 1676448705660,
+  "i18n/i18n.properties": 1676439417013,
+  "css/style.css": 1676439393421,
+  "index.html": 1676439393401
+}

@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"], function (t) { "use strict"; return t.extend("customtile.controller.App", { onInit() { }, onPress: function () { const t = this.getOwnerComponent().getComponentData().properties; const e = t.targetURL; if (e) { const t = new sap.ui.core.routing.HashChanger; t.setHash(e) } } }) });

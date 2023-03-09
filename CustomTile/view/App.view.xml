@@ -1,0 +1,17 @@
+<mvc:View controllerName="customtile.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <!-- <HBox width="22.5rem" height="11rem">
+        <items>
+            <Button text="Btn"/>
+            <Input width="2rem" placeholder="Helloaa"/>
+        </items>
+    </HBox> -->
+    <GenericTile width="22.5rem" header="CustomTile Header" subheader="CustomTile Sub Header" press="onPress">
+        <TileContent unit="Unit" footer="Footer Text">
+            <NumericContent value="12" withMargin="false" /> 
+        </TileContent>
+    </GenericTile>
+</mvc:View>
+

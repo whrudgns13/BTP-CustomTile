@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("tilecontent.controller.App",{onInit(){const e=jQuery.sap.getObject("sap.ushell.Container");e.getServiceAsync("PluginManager").then(e=>{let n=e.getRegisteredPlugins();let t;for(let[e,i]of Object.entries(n.RendererExtensions)){if(e.indexOf("shellplugin")>-1){t=i}}console.log(t)})}})});
